@@ -1,0 +1,29 @@
+<?php
+/**
+ * Class Dispatcher
+ */
+class Dispatcher{
+    /**
+     * @param $router
+     * @throws Exception
+     */
+    public static function dispatch($router){
+        global $app;
+        $config = Loader::load('Configs');
+        $controller = $router->getController();
+        $controllerClass = "{$controller}Controller";
+        $action = 'action'.$router->getAction();
+        $params = $router->getParams();
+        $controllerFile = "app/controllers/{$controllerClass}.php";
+        if(!file_exists($controllerFile)){
+            throw new Exception("The '{$controllerClass}' Not Found In '{$controllerFile}'");
+        }
+        require_once $controllerFile;
+        $app = new $controllerClass();
+        if(!method_exists($app,$action)){
+           // $actionName = substr($action , 6);
+            throw new Exception("The '{$router->getAction()}' Not Found in '{$controllerClass}'");
+        }
+        $app->$action($params);
+    }
+}
