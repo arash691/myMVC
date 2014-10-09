@@ -1,6 +1,6 @@
 <?php
 /**
- * Class CSession
+ * this class for work with session
  */
 class CSession{
     /**
