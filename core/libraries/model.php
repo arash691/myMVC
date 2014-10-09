@@ -2,7 +2,7 @@
 /**
  * this class has main methods to work with mysql with mysqli extension
  */
-class CModel{
+class CDataBase{
     /**
      * $con is instance of mysqli class
      * @var
