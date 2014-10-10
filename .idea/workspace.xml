@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="826d31e6-0238-45d1-84f2-14bd87485fe0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/myMVC.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-    </list>
+    <list default="true" id="826d31e6-0238-45d1-84f2-14bd87485fe0" name="Default" comment="" />
     <ignored path="myMVC.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,7 +26,7 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="23" selection-start="165" selection-end="165" vertical-scroll-proportion="0.21834862" vertical-offset="0" max-vertical-offset="545">
+            <state line="9" column="14" selection-start="208" selection-end="208" vertical-scroll-proportion="0.28073394" vertical-offset="0" max-vertical-offset="545">
               <folding />
             </state>
           </provider>
@@ -161,7 +154,11 @@
       <created>1412928379454</created>
       <updated>1412928379454</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test2">
+      <created>1412928510062</created>
+      <updated>1412928510062</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -197,7 +194,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="test2" />
+    <option name="LAST_COMMIT_MESSAGE" value="test2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -205,7 +203,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="23" selection-start="165" selection-end="165" vertical-scroll-proportion="0.21834862" vertical-offset="0" max-vertical-offset="545">
+        <state line="9" column="14" selection-start="208" selection-end="208" vertical-scroll-proportion="0.28073394" vertical-offset="0" max-vertical-offset="545">
           <folding />
         </state>
       </provider>
